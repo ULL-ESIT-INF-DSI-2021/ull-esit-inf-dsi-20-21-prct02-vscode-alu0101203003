@@ -122,5 +122,64 @@ Crearemos un fichero *tsconfig.json* que nos permitirá configurar el compilador
 ```
 #### 3.4. Compilación y ejecución del HolaMundo
 
-El código fuente de nuestro programa será un fichero
+El código fuente de nuestro programa será un fichero *index.ts* que contendrá las instrucciones necesarias para hacerlo funcionar. Al tratarse del código fuente, será almacenado en el directorio src (como se explica en el apartado anterior):
+
+```bash
+[~/hello-world()]$pwd
+/home/usuario/hello-world
+[~/hello-world()]$mkdir src
+[~/hello-world()]$cd src
+[~/hello-world/src()]$touch index.ts
+[~/hello-world/src()]$ls
+index.ts
+
+```
+
+```bash
+[~/hello-world/src()]$cat index.ts
+let myString: string = "Hola Mundo";
+console.log(myString);
+
+```
+Compilaremos este código con el comando `tsc` y obtendremos un código resultado *index.js* (que se almacenará en el directorio dist, creado por defecto al compilar):
+
+
+```bash
+[~/hello-world()]$tsc
+
+```
+
+Se puede observar, tras comparar el código fuente con el resultado, que JavaScript no usa *: string* ya que no es un lenguaje tipado, al contrario que TypeScript:
+
+```bash
+[~/hello-world()]$diff src/index.ts dist/index.js 
+1c1
+< let myString: string = "Hola Mundo";
+---
+> let myString = "Hola Mundo";
+
+```
+Finalmente podremos ejecutar nuestro código y comprobar que funciona correctamente:
+
+
+```bash
+[~/hello-world()]$node dist/index.js
+Hola Mundo
+
+```
+
+### Bibliografía
+
+A continuación se muestra una serie de recursos que han sido de gran utilidad para la realización de la práctica y de este informe:
+
+
+Recurso| Dirección
+-------|----------
+Guía de la práctica | https://ull-esit-inf-dsi-2021.github.io/prct02-vscode/
+Visual Studio Docs | https://code.visualstudio.com/docs
+Cambiar el tamño de una imagen en mardown | https://stackoverflow.com/questions/14675913/changing-image-size-in-markdown
+ESLint | https://eslint.org/
+
+
+
 
