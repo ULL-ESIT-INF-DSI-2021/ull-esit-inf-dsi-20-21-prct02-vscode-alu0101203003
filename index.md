@@ -26,6 +26,7 @@ Si no se ha realizado previamente, debemos instalar Visual Studio Code. Una de l
 Debemos recordar que la instalación se ha llevado a cabo de manera local. Para poder usar VS Code en nuestra máquina virtual debemos conectarnos de manera remota por ssh desde el programa. (Para poder realizar una conexión ssh a nuestra máquina virtual es necesario haber completado la [práctica 1](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct01-iaas-alu0101203003/blob/gh-pages/index.md)).
 
 Para conectarnos desde VS Code, presionamos la tecla `f1` y seleccionamos la opción de *Remote-SSH: Conect to host...*
+![](src/Captura1.PNG)
 
 
 
