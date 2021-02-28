@@ -31,6 +31,18 @@ Para conectarnos desde VS Code, presionamos la tecla `f1` y seleccionamos la opc
 Y elegimos el host de nuestra máquina:
 ![](src/Captura2.PNG)
 
+### 2. Extensiones y complementos
+
+Tenemos que ser conscientes de que las extensiones o cambios que hagamos conectados por ssh se harán efectivos solo en la máquina virtual. La máquina local está desvinculada de estos cambios y, si los queremos también para ella, deberemos realizarlos de nuevo localmente.
+
+Aclarado esto procederemos a instalar una serie de extensiones que nos serán de utilidad en nuestra máquina virtual.
+
+#### 2.2 LiveShare. Sesiones colaborativas
+
+Para hacer uso de las sesiones colaborativas instalaremos el *Live Share Extension Pack* con la ayuda del administrador de extensiones:
+
+![](src/Captura3.PNG)
+
 
 
 
