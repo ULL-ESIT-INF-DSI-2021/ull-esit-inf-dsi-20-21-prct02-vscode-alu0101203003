@@ -37,7 +37,7 @@ Tenemos que ser conscientes de que las extensiones o cambios que hagamos conecta
 
 Aclarado esto procederemos a instalar una serie de extensiones que nos serán de utilidad en nuestra máquina virtual.
 
-#### 2.2 LiveShare. Sesiones colaborativas
+#### 2.1. LiveShare. Sesiones colaborativas
 
 Para hacer uso de las sesiones colaborativas instalaremos el *Live Share Extension Pack* con la ayuda del administrador de extensiones:
 
@@ -45,5 +45,60 @@ Para hacer uso de las sesiones colaborativas instalaremos el *Live Share Extensi
 
 Con el botón *Share* empezará una sesión y podremos compartir el link con los usuarios que se quieran conectar. De esta manera se podrá hacer uso de las sesiones colaborativas para trabajar de manera conjunta en un proyecto con otro usuario.
 
+#### 2.2. Extensiones adicionales
+
+Instalaremos otra extensión llamada [ESLint](https://eslint.org/) que nos permitirá comprobar nuestro código de JavaScript y TypeScript en busca de errores de estilo.
+
+De manera opcional podemos instalar la extensión de VIM si usamos dicho editor de texto con regularidad.
+
+### 3. Manejo de TypeScript
+
+#### 3.1. Instalar el compilador
+
+Para poder compilar código escrito en TypeScript debemos instalar el compilador:
+
+```bash
+[~()]$npm install --global typescript
+
+added 1 package, and audited 2 packages in 2s
+
+found 0 vulnerabilities
+[~()]$tsc --version
+Version 4.2.2
+```
+
+#### 3.2. Directorio helloworld
+
+Crearemos un nuevo directorio helloworld donde se alojará nuestro programa y le asignaremos un archivo *package.json* (creado con el comando `npm init --yes`) que nos permitirá establecer las dependencias del proyecto:
+
+```bash
+[~()]$pwd
+/home/usuario
+[~()]$mkdir hello-world
+[~()]$cd hello-world/
+[~/hello-world()]$npm init --yes
+Wrote to /home/usuario/hello-world/package.json:
+
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+[~/hello-world()]$ls -lrtha
+total 12K
+drwxr-xr-x 26 usuario usuario 4,0K feb  22 11:02 ..
+drwxrwxr-x  2 usuario usuario 4,0K feb  22 11:02 .
+-rw-rw-r--  1 usuario usuario  225 feb  22 11:02 package.json
+[~/hello-world()]$
+
+```
 
 
