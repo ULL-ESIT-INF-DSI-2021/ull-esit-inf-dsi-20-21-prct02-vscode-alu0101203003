@@ -41,7 +41,8 @@ Aclarado esto procederemos a instalar una serie de extensiones que nos serán de
 
 Para hacer uso de las sesiones colaborativas instalaremos el *Live Share Extension Pack* con la ayuda del administrador de extensiones:
 
-![](src/Captura3.PNG) ![](src/Captura4.PNG)
+<img src="src/Captura3.PNG" alt="" height="300"/>
+<img src="src/Captura4.PNG" alt="" height="300"/>
 <img src="src/Captura5.PNG" alt="" height="300"/>
 
 Con el botón *Share* empezará una sesión y podremos compartir el link con los usuarios que se quieran conectar. De esta manera se podrá hacer uso de las sesiones colaborativas para trabajar de manera conjunta en un proyecto con otro usuario.
