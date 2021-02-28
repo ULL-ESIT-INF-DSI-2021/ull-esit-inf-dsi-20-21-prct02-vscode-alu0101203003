@@ -19,7 +19,7 @@ Al finalizar la práctica, habremos completado los siguientes objetivos:
 
 #### 1.1. Instalación
 
-Si no se ha realizado previamente, debemos instalar Visual Studio Code. Una de las maneras de llevar esta tarea a cabo es haciendo uso del comando: `sudo snap install code --classic`. Podemos configurar nuestras preferencias en el programa a nuestro gusto, para ello (y para entender con mayor detalle el funcionamiento del programa) se recomienda hacer uso de la guía oficial de VS Code: [Visual Studio Docs](https://code.visualstudio.com/docs).
+Si no se ha realizado previamente, debemos instalar Visual Studio Code. Una de las maneras de llevar esta tarea a cabo es haciendo uso del comando: `sudo snap install code --classic`. Podemos configurar nuestras preferencias en el programa a nuestro gusto. Para ello (y para entender con mayor detalle el funcionamiento del programa) se recomienda hacer uso de la guía oficial de VS Code: [Visual Studio Docs](https://code.visualstudio.com/docs).
 
 #### 1.2. Conexión remota
 
