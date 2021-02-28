@@ -67,9 +67,9 @@ found 0 vulnerabilities
 Version 4.2.2
 ```
 
-#### 3.2. Directorio helloworld
+#### 3.2. Directorio hello-world
 
-Crearemos un nuevo directorio helloworld donde se alojará nuestro programa y le asignaremos un archivo *package.json* (creado con el comando `npm init --yes`) que nos permitirá establecer las dependencias del proyecto:
+Crearemos un nuevo directorio hello-world donde se alojará nuestro programa y le asignaremos un archivo *package.json* (creado con el comando `npm init --yes`) que nos permitirá establecer las dependencias del proyecto:
 
 ```bash
 [~()]$pwd
@@ -100,5 +100,27 @@ drwxrwxr-x  2 usuario usuario 4,0K feb  22 11:02 .
 [~/hello-world()]$
 
 ```
+#### 3.3. Configuración del directorio
 
+Para tener acceso al directorio y poder añadir/modificar archivos abriremos la carpeta con el explorador de archivos:
+
+<img src="src/Captura6.PNG" alt="" height="200"/> <img src="src/Captura7.PNG" alt="" height="200"/>
+
+Crearemos un fichero *tsconfig.json* que nos permitirá configurar el compilador para que genere código compatible con los estándares de js, que el código resultado se almacene en el directorio dist y que busque el código fuente en el directorio src. Para lograr esto, el archivo contendrá las siguientes lineas de código:
+
+```bash
+[~/hello-world()]$touch tsconfig.json
+[~/hello-world()]$cat tsconfig.json 
+{
+  "compilerOptions": {
+    "target": "ES2018",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "module": "CommonJS"
+  }
+}
+```
+#### 3.4. Compilación y ejecución del HolaMundo
+
+El código fuente de nuestro programa será un fichero
 
