@@ -177,7 +177,7 @@ Recurso| Dirección
 -------|----------
 Guía de la práctica | https://ull-esit-inf-dsi-2021.github.io/prct02-vscode/
 Visual Studio Docs | https://code.visualstudio.com/docs
-Cambiar el tamño de una imagen en mardown | https://stackoverflow.com/questions/14675913/changing-image-size-in-markdown
+Cambiar el tamaño de una imagen en mardown | https://stackoverflow.com/questions/14675913/changing-image-size-in-markdown
 ESLint | https://eslint.org/
 
 
