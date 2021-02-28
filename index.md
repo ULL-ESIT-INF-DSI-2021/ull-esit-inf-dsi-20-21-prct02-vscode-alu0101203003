@@ -104,7 +104,7 @@ drwxrwxr-x  2 usuario usuario 4,0K feb  22 11:02 .
 
 Para tener acceso al directorio y poder añadir/modificar archivos abriremos la carpeta con el explorador de archivos:
 
-<img src="src/Captura6.PNG" alt="" height="150"/> <img src="src/Captura7.PNG" alt="" height="150"/>
+<img src="src/Captura6.PNG" alt="" height="170"/> <img src="src/Captura7.PNG" alt="" height="170"/>
 
 Crearemos un fichero *tsconfig.json* que nos permitirá configurar el compilador para que genere código compatible con los estándares de js, que el código resultado se almacene en el directorio dist y que busque el código fuente en el directorio src. Para lograr esto, el archivo contendrá las siguientes lineas de código:
 
